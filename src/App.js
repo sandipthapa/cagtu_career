@@ -15,8 +15,8 @@ function App() {
         <Navigation/>
         <Routes>
           <Route exact path='/' element={<JobList/>}/>
-          <Route exact path='/ui' element={<UiUxDeveloper/>}/>
-          <Route exact path='/react' element={<ReactDeveloper/>}/>
+          <Route path='/ui' element={<UiUxDeveloper/>}/>
+          <Route path='/react' element={<ReactDeveloper/>}/>
         </Routes> 
         <Footer/>
       </Router>
