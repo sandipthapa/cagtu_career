@@ -1,0 +1,140 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.section-title{
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+.section-title .container{
+    padding: 0 30px;
+}
+.section-title h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cards-section{
+    width: 99%;
+    /* border: 3px solid; */
+    display: grid;
+    margin: 10px 0 50px 0;
+}
+.card-holder{
+    margin: 0 -5px;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+}
+.content-card{
+    background-color: #fff;
+    padding: 10px;
+    width: 93%;
+    text-align: left;
+    border: 1px solid #00000020;
+    border-radius: 5px;
+    display: block;
+    /* box-shadow: 0px 10px 20px 4px #00000010; */
+}
+.card-inner{
+    padding: 0 15px;
+}
+.card-inner h3{
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 2px 0;
+}
+
+.card-inner h4{
+    color: #666;
+    font-weight: 500;
+    margin: 2px 0 15px 0;
+}
+
+.card-inner a{
+    color: #0961C9;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.card-inner a i{
+    font-size: 14px;
+    padding: 0 0 0 5px;
+}
+
+.card-inner a:hover{
+    color: #0b3568;
+}
+
+@media only screen and (max-width: 1440px){
+    .column{
+        float: left;
+        width: 29%;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 1164px){
+    .column{
+        float: left;
+        width: 28%;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 912px){
+    .column{
+        float: left;
+        width: 43%;
+        padding: 10px 20px;
+    }
+    .content-card{
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .column{
+        float: left;
+        width: 43%;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .cards-section .container{
+        padding: 0 50px;
+    }
+    .card-holder{
+        width: 100%;
+    }
+    .column{
+        float: left;
+        width: 43%;
+        padding: 10px 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 540px){
+    .cards-section{
+        width: 100%;
+    }
+    .cards-section .container{
+        padding: 0 30px;
+    }
+    .card-holder{
+        width: 100%;
+    }
+    .column{
+        float: left;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+}

@@ -1,0 +1,177 @@
+.job-title{
+    text-align: left;
+    padding: 40px 0;
+}
+.job-title h1{
+    color: #060606;
+    font-weight: 600;
+    font-size: 32px;
+}
+.job-details{
+    display: flex;
+}
+.job-desc{
+    width: 60%;
+    padding-right: 40px;
+    /* border: 3px solid blue; */
+}
+.job-desc h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.upper-desc ol li, .lower-desc ol li{
+    padding-bottom: 8px;
+}
+.form{
+    width: 30%;
+    /* border: 3px solid red; */
+}
+
+.extra-info{
+    margin: 40px 0 0 0;
+}
+.extra-info p{
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-weight: 700;
+}
+.extra-info span{
+    font-weight: 500;
+    padding-left: 10px;
+    color: #111;
+}
+.form{
+    padding: 10px;
+}
+.form-wrapper{
+    height: auto;
+    padding:0 20px;
+    border: 1px solid #00000020;
+}
+.form-wrapper p{
+    margin: 0;
+    text-align: center;
+}
+.form-wrapper p a{
+    text-decoration: none;
+    color: #4fa6d5;
+    padding: 0 0 0 5px;
+}
+.form-wrapper p a:hover{
+    color:#45beff;
+    transition-duration: .2s;
+}
+
+.form-wrapper img{
+    max-width: 100%;
+    /* max-height: 50%; */
+}
+.form-wrapper label{
+    font-size: 16px;
+}
+.form-wrapper .or{
+    color: #999;
+    text-align: center;
+    margin: 5px 0;
+}
+.form-wrapper span{
+    color: #ff0000;
+    margin-left: 5px;
+}
+.back{
+    margin: 40px 0 0 0;
+}
+
+.back a{
+    text-decoration: none;
+    color: #06438c;
+}
+.back a:hover{
+    text-decoration: none;
+    color: #0d54ac;
+}
+/* .back a i{
+    font-size: 14px;
+    padding: 0 5px 0 0;
+} */
+
+
+.section-title{
+    padding-bottom: 0;
+}
+.share{
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.makeStyles-container-1{
+    z-index: -1;
+
+}
+
+.makeStyles-iconContainer-3{
+    margin: 0 50px;
+}
+
+.frames{
+    margin: 10px 0;
+    display: inline-flex;
+}
+.a2a_kit{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 1156px){
+    .frames{
+        max-width: 100%;
+        /* display: block; */
+    }
+}
+
+@media only screen and (max-width: 912px){
+    .section-title{
+        padding: 0;
+    }
+    .section-title .container{
+        padding: 0 50px;
+    }
+    .section-title h1{
+        text-align: left;
+        width: 100%;
+        font-weight: 600;
+    }
+    .job-details{
+        width: 100%;
+        display: block;
+    }
+    .job-desc{
+        width: 100%;
+        /* text-align: justify; */
+    }
+    .form{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .frames{
+        max-width: 100%;
+        display: inline-flex;
+    }
+    #fbFrame, .a2a_kit{
+        margin: 5px 0;
+        width: 33%;
+        padding: 0;
+    }
+    #twitterFrame{
+        float: left;
+        margin: 5px 0;
+    }
+}
+@media only screen and (max-width: 430px){
+    .container{
+        padding: 0 50px;
+    }
+    .frames{
+        max-width: 100%;
+        /* display: block; */
+    }
+}

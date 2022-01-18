@@ -1,0 +1,103 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form input[type="text"], input[type="email"], input[type="submit"]{
+    margin:10px 0;
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #99999970;
+    border-radius: 4px;
+}
+.form input[type="file"]{
+    margin:10px 0 0 0;
+    opacity: 50;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 16px;
+    width: 100%;
+}
+
+.resume{
+    margin-bottom: 20px;
+}
+.resume label{
+    margin: 100px 0;
+}
+.check{
+    margin-top: 40px;
+    display: inline;
+}
+.check label{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    /* vertical-align: middle; */
+}
+.form input[type="checkbox"]{
+    margin-top:10px;
+    vertical-align: text-bottom;
+}
+
+input[type="submit"]{
+    margin:10px 0;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #1e4356;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: #06438c;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}

@@ -1,0 +1,153 @@
+
+/* Navbar */
+.nav{
+    background: #1e4356;
+    box-shadow: 0px 10px 20px 4px #00000010;
+    height: 70px;
+    /* border: 3px solid red; */
+    
+}
+.container{
+    padding: 0 120px;
+}
+
+.nav_wrapper{
+    display: inline-flex;
+}
+
+.logo{
+    width: 20%;
+}
+.nav-links{
+    width: 70%;
+}
+.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 5px 0;
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+    padding: 0 10px;
+    font-weight: 500;
+}
+.nav-links ul a:hover{
+    color: #73b8dd;
+    transition-duration: .3s;
+}
+.nav_wrapper img{
+    /* height: 100px; */
+    max-height: 40%;
+    max-width: 50%;
+    padding: 10px 0;
+}
+.toggle{
+    display: none;
+}
+.toggle_btn{
+    padding: 15px 0 0 120px;
+    position: relative;
+    top: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle_btn .bar{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.nav-links-active{
+    margin: 0;
+    display: none;
+    background: #1e4356;
+    width: 100%;
+}
+.nav-links-active ul{
+    list-style-type: none;
+}
+.nav-links-active ul li{
+    margin: 5px 0;
+}
+.nav-links-active ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links-active-hide{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .nav .container{
+        padding: 0 50px;
+    }
+    .nav_wrapper{
+        padding: 0;
+        display: flex;
+    }
+    .logo{
+        width: 40%;
+        /* padding: 5px 30px; */
+    }
+    .logo img{
+        max-height: 60%;
+    }
+    
+}
+@media only screen and (max-width: 510px){
+    /* nav bar */
+    .nav{
+        padding: 0;
+        align-items: baseline;
+    }
+    .nav .container{
+        padding: 0;
+        display: inline;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav_wrapper{
+        padding: 0;
+        display: flex;
+    }
+    .logo{
+        width: 40%;
+        padding: 5px 30px;
+    }
+    .logo img{
+        max-height: 100%;
+    }
+    .toggle{
+        width: 60%;
+        display: inline-flex;
+        text-align: right;
+    }
+    .nav-links-active{
+        margin: 0;
+        display: block;
+        background: #1e4356;
+        width: 100%;
+    }
+    .nav-links-active ul{
+        margin: 0;
+    }
+    .nav-links-active ul li{
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    /* career section */
+    .section-title h1{
+        font-size: 24px;
+
+    }
+
+}
