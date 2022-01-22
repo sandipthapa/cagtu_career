@@ -3,6 +3,7 @@ import '../assets/css/job-listings.css';
 import GoBack from './GoBack';
 import JoinUs from './JoinUs';
 import {Helmet} from "react-helmet";
+import meta from '../assets/images/meta.png'
 
 function UiUxDeveloper() {
         //  var fbSrc = "https://www.facebook.com/plugins/share_button.php?href="+x+"&layout=button&size=small&width=94&height=20&appId"
@@ -17,14 +18,14 @@ function UiUxDeveloper() {
                 <meta property="og:url" content="https://careers.cagtu.com/ui.html"/>
                 <meta property="og:title" content="We are hiring UI/UX Designer"/>
                 <meta property="og:description" content=""/>
-                <meta property="og:image" content="images/meta.png"/>
+                <meta property="og:image" content={meta}/>
 
                 {/* <!-- Twitter --> */}
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content="https://careers.cagtu.com/ui.html"/>
                 <meta property="twitter:title" content="We are hiring UI/UX Designer"/>
                 <meta property="twitter:description" content=""/>
-                <meta property="twitter:image" content="images/meta.png"/>
+                <meta property="twitter:image" content={meta}/>
 
                 <title>Careers | UI/UX Designer</title>              
             </Helmet>     
