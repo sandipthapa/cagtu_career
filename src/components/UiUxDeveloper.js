@@ -10,24 +10,21 @@ function UiUxDeveloper() {
     return (
         <div> 
             <Helmet>
-                <meta name="title" content="UI/UX Designer"/>
-                <meta name="description" content=""/>
+                <title>Careers | UI/UX Designer</title>  
+                <meta name="title" content="Careers | UI/UX Designer"/>
+                <meta name="description" content="We are Hiring UI/UX Designer"/>
 
-                {/* <!-- Open Graph / Facebook --> */}
                 <meta property="og:type" content="website"/>
-                <meta property="og:url" content="https://careers.cagtu.com/ui.html"/>
-                <meta property="og:title" content="We are hiring UI/UX Designer"/>
-                <meta property="og:description" content=""/>
+                <meta property="og:url" content="https://careers-cagtu.herokuapp.com/ui"/>
+                <meta property="og:title" content="Careers | UI/UX Designer"/>
+                <meta property="og:description" content="We are Hiring UI/UX Designer"/>
                 <meta property="og:image" content={meta}/>
 
-                {/* <!-- Twitter --> */}
                 <meta property="twitter:card" content="summary_large_image"/>
-                <meta property="twitter:url" content="https://careers.cagtu.com/ui.html"/>
-                <meta property="twitter:title" content="We are hiring UI/UX Designer"/>
-                <meta property="twitter:description" content=""/>
-                <meta property="twitter:image" content={meta}/>
-
-                <title>Careers | UI/UX Designer</title>              
+                <meta property="twitter:url" content="https://careers-cagtu.herokuapp.com/ui"/>
+                <meta property="twitter:title" content="Careers | UI/UX Designer"/>
+                <meta property="twitter:description" content="We are Hiring UI/UX Designer"/>
+                <meta property="twitter:image" content={meta}/>                            
             </Helmet>     
             <div className="job-title">
                 <div className="container">
