@@ -5,6 +5,8 @@ import './assets/css/job-lists.css';
 import UiUxDeveloper from "./components/UiUxDeveloper";
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import ReactDeveloper from "./components/ReactDeveloper";
+import FlutterDev from "./components/FlutterDev";
+import Django from "./components/Django";
 
 
 
@@ -15,8 +17,10 @@ function App() {
         <Navigation/>
         <Routes>
           <Route exact path='/' element={<JobList/>}/>
-          <Route path='/ui' element={<UiUxDeveloper/>}/>
-          <Route path='/react' element={<ReactDeveloper/>}/>
+          <Route exact path='/ui' element={<UiUxDeveloper/>}/>
+          <Route exact path='/react' element={<ReactDeveloper/>}/>
+          <Route exact path='/flutter' element={<FlutterDev/>}/>
+          <Route exact path='/django' element={<Django/>}/>
         </Routes> 
         <Footer/>
       </Router>

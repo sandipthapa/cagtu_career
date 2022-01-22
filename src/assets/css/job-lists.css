@@ -61,9 +61,10 @@
     text-decoration: none;
     padding: 15px 0;
 }
-.card-inner a i{
-    font-size: 14px;
+.card-inner a .arrow{
+    font-size: 12px;
     padding: 0 0 0 5px;
+    vertical-align: middle;
 }
 
 .card-inner a:hover{

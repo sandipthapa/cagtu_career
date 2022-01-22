@@ -8,6 +8,9 @@ body.active-modal {
     margin: 100px auto 0;
     font-size: 18px;
 }
+.modal{
+    z-index: 11;
+}
 
 .modal, .overlay {
     width: 100vw;

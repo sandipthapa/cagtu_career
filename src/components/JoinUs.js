@@ -70,10 +70,10 @@ function JoinUs() {
           </div>
         </div>
       )}
-                <div className="share">
-                    <p>Please Share:</p>
-                    <ShareSocial className="shareSocial" url={x} socialTypes={["facebook", "twitter", "linkedin"]} style={style}/>
-                </div>
+    <div className="share">
+        <p>Please Share:</p>
+        <ShareSocial className="shareSocial" url={x} socialTypes={["facebook", "twitter", "linkedin"]} style={style}/>
+    </div>
             </div>
 
                         </div>
