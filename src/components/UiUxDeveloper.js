@@ -2,11 +2,32 @@ import React from 'react'
 import '../assets/css/job-listings.css';
 import GoBack from './GoBack';
 import JoinUs from './JoinUs';
+import {Helmet} from "react-helmet";
 
 function UiUxDeveloper() {
         //  var fbSrc = "https://www.facebook.com/plugins/share_button.php?href="+x+"&layout=button&size=small&width=94&height=20&appId"
     return (
-        <div>    
+        <div> 
+            <Helmet>
+                <meta name="title" content="UI/UX Designer"/>
+                <meta name="description" content=""/>
+
+                {/* <!-- Open Graph / Facebook --> */}
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://careers.cagtu.com/ui.html"/>
+                <meta property="og:title" content="We are hiring UI/UX Designer"/>
+                <meta property="og:description" content=""/>
+                <meta property="og:image" content="images/meta.png"/>
+
+                {/* <!-- Twitter --> */}
+                <meta property="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:url" content="https://careers.cagtu.com/ui.html"/>
+                <meta property="twitter:title" content="We are hiring UI/UX Designer"/>
+                <meta property="twitter:description" content=""/>
+                <meta property="twitter:image" content="images/meta.png"/>
+
+                <title>Careers | UI/UX Designer</title>              
+            </Helmet>     
             <div className="job-title">
                 <div className="container">
                     <h1>UI/UX Designer</h1>
