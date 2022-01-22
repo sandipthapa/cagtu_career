@@ -103,7 +103,10 @@
     margin: 20px 0 10px 0;
     text-align: center;
 }
-
+.social-share{
+    align-items: center;
+    vertical-align: middle;
+}
 
 .makeStyles-iconContainer-3{
     margin: 0 50px;
